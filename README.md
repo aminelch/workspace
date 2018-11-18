@@ -25,17 +25,31 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 **[Complete package list](https://github.com/aminelch/workspace/blob/master/package.list "Complete package list")**
 
+
 ###PHPStorm 
 [phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings.jar "phpStorm settings")
 
+
 #### Firefox Color
+
 [firefox Colors](https://color.firefox.com/?theme=XQAAAAIUAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xNKlhX7p_w-bFKDpbUJasOFEb7xDbBpLNSPVGezz8UbhQdB0GWAOD8ATi6goq1YnVG0pMl-SnqDQaOZUOSxI6hRIBBN9cVab3KfaEVnFT8UNixHiWH8LmtKyl93ZVGkBz-kvmbxdqRTnOGOGFU-foQOhnFUiStVUkW2aOPtoZpBAT0yl-BvxEp9675M_ZheGwrw9AtoVcGBsMl1TfdZDrqm1YIX837L_-cMyoA "firefox Colors")
+
+
 ####DuckDuckGo 
+
+
 - [google chrome](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg "google chrome")
 - [firefox](https://addons.mozilla.org/fr/firefox/addon/duckduckgo-for-firefox/ "firefox")
+
+
 ####OhMyZSH config 
+
 [Zshrc config](https://github.com/aminelch/workspace/blob/master/ohmyzsh/zshrc "Zshrc config")
+
+
 ####Bash packages 
+
+
 1. Linux Logo
 2. cmatrix 
 3. git 
@@ -45,3 +59,29 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 3. mariadb
 4. apache2
 
+#### Gnome 3 extensions 
+
+1. Activities configurator 
+2. Clipboard indicator 
+3. coverflow alt-tab 
+4. Dash to dock
+5. Disconnect wifi 
+6. Extensions 
+7. Netspeed
+8. Place status indicator
+9. Refresh wifi connections 
+10. Transparent gnome panel 
+11. Ubuntu dock
+12. User themes 
+
+#### Sublime Text preferences 
+
+
+#####1. Packages
+
+[Sublime text package list](https://github.com/aminelch/workspace/blob/master/sublimeText/Package Control.sublime-settings "Sublime text package list")
+
+
+#####2. Preferences.sublime-settings
+
+[Sublime Preferences.sublime-settings](https://github.com/aminelch/workspace/blob/master/sublimeText/Preferences.sublime-settings "Sublime Preferences.sublime-settings")
