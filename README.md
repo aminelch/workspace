@@ -79,8 +79,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ##### 1. Packages
 
-[Sublime text package list](https://github.com/aminelch/workspace/blob/master/sublimeText/Package Control.sublime-settings "Sublime text package list")
-
+[Sublime text package list](https://github.com/aminelch/workspace/blob/master/sublimeText/Package%20Control.sublime-settings "Sublime text package list")
 
 ##### 2. Preferences.sublime-settings
 
