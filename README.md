@@ -26,7 +26,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 **[Complete package list](https://github.com/aminelch/workspace/blob/master/package.list "Complete package list")**
 
 
-###PHPStorm 
+### PHPStorm 
 [phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings.jar "phpStorm settings")
 
 
@@ -35,19 +35,19 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 [firefox Colors](https://color.firefox.com/?theme=XQAAAAIUAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xNKlhX7p_w-bFKDpbUJasOFEb7xDbBpLNSPVGezz8UbhQdB0GWAOD8ATi6goq1YnVG0pMl-SnqDQaOZUOSxI6hRIBBN9cVab3KfaEVnFT8UNixHiWH8LmtKyl93ZVGkBz-kvmbxdqRTnOGOGFU-foQOhnFUiStVUkW2aOPtoZpBAT0yl-BvxEp9675M_ZheGwrw9AtoVcGBsMl1TfdZDrqm1YIX837L_-cMyoA "firefox Colors")
 
 
-####DuckDuckGo 
+#### DuckDuckGo 
 
 
 - [google chrome](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg "google chrome")
 - [firefox](https://addons.mozilla.org/fr/firefox/addon/duckduckgo-for-firefox/ "firefox")
 
 
-####OhMyZSH config 
+#### OhMyZSH config 
 
 [Zshrc config](https://github.com/aminelch/workspace/blob/master/ohmyzsh/zshrc "Zshrc config")
 
 
-####Bash packages 
+#### Bash packages 
 
 
 1. Linux Logo
@@ -77,11 +77,11 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 #### Sublime Text preferences 
 
 
-#####1. Packages
+##### 1. Packages
 
 [Sublime text package list](https://github.com/aminelch/workspace/blob/master/sublimeText/Package Control.sublime-settings "Sublime text package list")
 
 
-#####2. Preferences.sublime-settings
+##### 2. Preferences.sublime-settings
 
 [Sublime Preferences.sublime-settings](https://github.com/aminelch/workspace/blob/master/sublimeText/Preferences.sublime-settings "Sublime Preferences.sublime-settings")
