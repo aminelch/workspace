@@ -84,3 +84,6 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 ##### 2. Preferences.sublime-settings
 
 [Sublime Preferences.sublime-settings](https://github.com/aminelch/workspace/blob/master/sublimeText/Preferences.sublime-settings "Sublime Preferences.sublime-settings")
+
+##### 3. Intellij Idea Settings
+[Intellij IDEA settings](https://github.com/aminelch/workspace/blob/master/intellijIdea/settings.zip "Intellij Idea settings")
