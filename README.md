@@ -22,7 +22,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 19. lnkscape
 20. Uget
 21. Vim 
-
+22. xchm
 **[Complete package list](https://github.com/aminelch/workspace/blob/master/package.list "Complete package list")**
 
 
