@@ -87,3 +87,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ##### 3. Intellij Idea Settings
 [Intellij IDEA settings](https://github.com/aminelch/workspace/blob/master/intellijIdea/settings.zip "Intellij Idea settings")
+
+#### Third Party Services 
+
+[Voir la liste complète ](https://github.com/aminelch/workspace/blob/master/3rdpartyservices/README.md "Voir la liste complète ")
