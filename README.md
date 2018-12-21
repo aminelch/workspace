@@ -85,8 +85,11 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 [Sublime Preferences.sublime-settings](https://github.com/aminelch/workspace/blob/master/sublimeText/Preferences.sublime-settings "Sublime Preferences.sublime-settings")
 
-##### 3. Intellij Idea Settings
+#### Intellij Idea Settings
 [Intellij IDEA settings](https://github.com/aminelch/workspace/blob/master/intellijIdea/settings.zip "Intellij Idea settings")
+
+#### Vscode
+[VSCode user settings](https://github.com/aminelch/workspace/blob/master/vscode/settings.json "VSCode user settings") 
 
 #### Third Party Services 
 

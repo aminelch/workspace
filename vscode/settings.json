@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Ayu Light Bordered",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 15.3,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.rendererType": "dom",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "window.titleBarStyle": "custom",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontFamily": "'Source Code Pro SemiBold', Hack",
+    "editor.formatOnType": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "material-icon-theme"
+}
