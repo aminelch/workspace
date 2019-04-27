@@ -94,3 +94,8 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 #### Third Party Services 
 
 [Voir la liste complète ](https://github.com/aminelch/workspace/blob/master/3rdpartyservices/README.md "Voir la liste complète ")
+
+
+### Color Scheme for Gnome Terminal and Pantheon Terminal
+
+$`bash -c  "$(wget -qO- https://git.io/vQgMr)" `
