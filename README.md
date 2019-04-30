@@ -1,6 +1,10 @@
 ### A propos 
 
 Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter les choses à savoir concernant mon installation de Linux.
+
+[![worksapce](https://github.com/aminelch/workspace/blob/master/workspace.png "worksapce")](https://github.com/aminelch/workspace/blob/master/workspace.png "worksapce")
+
+
 ### Liste de packets 
 1. PHPStorm 
 2. Intellij IDEA Community
@@ -44,9 +48,19 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 #### OhMyZSH config 
 
+##### Zshrc config file
+
 [Zshrc config](https://github.com/aminelch/workspace/blob/master/ohmyzsh/zshrc "Zshrc config")
+##### liste des plugins 
 
-
+-   git
+-   git-extras
+-   mysql-colorize
+-   colored-man-pages
+-   zsh-autosuggestions
+-   zsh-syntax-highlighting
+- colorsls from rybu gems 
+ 
 #### Bash packages 
 
 
