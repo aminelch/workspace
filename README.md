@@ -87,7 +87,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 10. Transparent gnome panel 
 11. Ubuntu dock
 12. User themes 
-
+12. Gnome Sync  
 #### Sublime Text preferences 
 
 
