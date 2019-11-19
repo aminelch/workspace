@@ -2,21 +2,20 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH="/home/aminelch/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-#ZSH_THEME="spaceship"
 #ZSH_THEME="gnzh"
-ZSH_THEME="bullet-train"
+ZSH_THEME="agnoster"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-#ZSH_THEME_RANDOM_CANDIDATES=( "spaceship", "gnzh" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -28,8 +27,14 @@ ZSH_THEME="bullet-train"
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -64,15 +69,14 @@ ZSH_THEME="bullet-train"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
+plugins=(git
   git-extras
   colored-man-pages
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
 
-
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#CD00CD,bg=cyan,bold,underline"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,17 +103,23 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
- alias zshconfig="nano ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="nano ~/.zshrc"
 alias zshupdate="source ~/.zshrc"
 alias phps="php -S localhost:8000 -ddisplay_errors=1"
-
-alias l="colorls --group-directories-first --almost-all"
-alias ll="colorls --group-directories-first --almost-all --long"
+alias c="clear" 
+#alias l="colorls --group-directories-first --almost-all"
+#alias ll="colorls --group-directories-first --almost-all --long"
 alias lc='colorls -lA --sd'
-export GEM_HOME=~/.ruby
+alias ll='colorls --gs'
+alias la='colorls -r' 
+alias kick="sudo python3 ~/kickthemout/kickthemout.py"
+#alias sysupdate ='sudo apt-get  update'
+#alias sysupgrade ='sudo apt-get  upgrade -y'
+#alias google ='firefox google.com & '
+#alias myip ="curl echo 'http://ipecho.net/plain'"
+
+source /home/aminelch/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
-source $(dirname $(gem which colorls))/tab_complete.sh
 
- linuxlogo -L14
+
