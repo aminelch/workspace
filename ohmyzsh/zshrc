@@ -112,9 +112,8 @@ alias ll='colorls --gs'
 alias la='colorls -r' 
 alias kick="sudo python3 ~/kickthemout/kickthemout.py"
 alias ipe='curl ipinfo.io/ip'
-alias google ='firefox google.com & '
-#alias myip ="curl echo 'http://ipecho.net/plain'
-alias workspace ="cd DSI32/14.Workspace "
+#alias www ='firefox&'
+#alias workspace ="cd DSI32/14.Workspace "
 
 alias cc='xclip -selection clipboard'
 
@@ -123,8 +122,10 @@ alias gitpass="cat ~/Documents/git.txt | cc "
 #use this command with cat eg  cat file  | cc 
 alias getpass="openssl rand -base64 20"
 
+# update on one command
+alias update='sudo apt-get update && sudo apt-get upgrade'
+alias ngs='ng serve'
 source /home/aminelch/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/aminelch/.sdkman"
 [[ -s "/home/aminelch/.sdkman/bin/sdkman-init.sh" ]] && source "/home/aminelch/.sdkman/bin/sdkman-init.sh"
-
