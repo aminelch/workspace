@@ -34,6 +34,9 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 [phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings.jar "phpStorm settings")
 
 
+### Android Studio
+[android studio settings](https://github.com/aminelch/workspace/blob/master/androidStudio/settings.zip "Android studio settings")
+
 #### Firefox Color
 
 [firefox Colors](https://color.firefox.com/?theme=XQAAAAIUAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xNKlhX7p_w-bFKDpbUJasOFEb7xDbBpLNSPVGezz8UbhQdB0GWAOD8ATi6goq1YnVG0pMl-SnqDQaOZUOSxI6hRIBBN9cVab3KfaEVnFT8UNixHiWH8LmtKyl93ZVGkBz-kvmbxdqRTnOGOGFU-foQOhnFUiStVUkW2aOPtoZpBAT0yl-BvxEp9675M_ZheGwrw9AtoVcGBsMl1TfdZDrqm1YIX837L_-cMyoA "firefox Colors")
