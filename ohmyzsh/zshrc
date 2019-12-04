@@ -125,6 +125,9 @@ alias getpass="openssl rand -base64 20"
 # update on one command
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias ngs='ng serve'
+alias ee="exit"
+linuxlogo -L14
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 source /home/aminelch/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/aminelch/.sdkman"
