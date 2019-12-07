@@ -27,6 +27,10 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 20. Uget
 21. Vim 
 22. xchm
+23. WebStorm
+24. AndroidStudio
+24. Spring Tool Suite
+
 **[Complete package list](https://github.com/aminelch/workspace/blob/master/package.list "Complete package list")**
 
 
@@ -90,17 +94,9 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 10. Transparent gnome panel 
 11. Ubuntu dock
 12. User themes 
-12. Gnome Sync  
-#### Sublime Text preferences 
-
-
-##### 1. Packages
-
-[Sublime text package list](https://github.com/aminelch/workspace/blob/master/sublimeText/Package%20Control.sublime-settings "Sublime text package list")
-
-##### 2. Preferences.sublime-settings
-
-[Sublime Preferences.sublime-settings](https://github.com/aminelch/workspace/blob/master/sublimeText/Preferences.sublime-settings "Sublime Preferences.sublime-settings")
+13. Gnome Sync
+14. Promodoro
+15. Desktop Icons
 
 #### Intellij Idea Settings
 [Intellij IDEA settings](https://github.com/aminelch/workspace/blob/master/intellijIdea/settings.zip "Intellij Idea settings")
