@@ -11,6 +11,8 @@ export ZSH="/home/aminelch/.oh-my-zsh"
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="gnzh"
 ZSH_THEME="agnoster"
+#ZSH_THEME="funky"
+#ZSH_THEME="lambda"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -126,8 +128,24 @@ alias getpass="openssl rand -base64 20"
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias ngs='ng serve'
 alias ee="exit"
-linuxlogo -L14
+#alias for git 
+alias gst='git status'
+alias gc='git commit'
+alias gco='git checkout'
+alias gl='git pull'
+alias gpom="git pull origin master"
+alias gp='git push'
+alias gd='git diff | mate'
+alias gb='git branch'
+alias gba='git branch -a'
+alias del='git branch -d'
+
+#END ALIAS FOR GIT 
+alias portfolio='~/bin/./portfolio.sh' 
+#linuxlogo -L14
+export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export PATH="$PATH:/opt/flutter/bin"
 source /home/aminelch/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/aminelch/.sdkman"
