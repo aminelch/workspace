@@ -34,6 +34,11 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 **[Complete package list](https://github.com/aminelch/workspace/blob/master/package.list "Complete package list")**
 
 
+### Liste de packets 
+
+[Useful links](https://github.com/aminelch/workspace/blob/master/links/readme.md "Useful links")
+
+
 ### PHPStorm 
 [phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings.jar "phpStorm settings")
 
