@@ -36,7 +36,11 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ### Liste de packets 
 
+<<<<<<< HEAD
 [Useful links](https://github.com/aminelch/workspace/tree/master/links "Useful links")
+=======
+[Useful links](https://github.com/aminelch/workspace/blob/master/links/readme.md "Useful links")
+>>>>>>> 1eeae7072f365451ef404f2d86b60656bc9a9e77
 
 
 ### PHPStorm 
