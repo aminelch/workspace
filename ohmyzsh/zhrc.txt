@@ -9,10 +9,11 @@ export ZSH="/home/aminelch/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
+ZSH_THEME="gnzh"
+#ZSH_THEME="agnoster"
 #ZSH_THEME="gnzh"
-ZSH_THEME="agnoster"
-#ZSH_THEME="funky"
 #ZSH_THEME="lambda"
+#ZSH_THEME="Powerlevel10k"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -33,7 +34,7 @@ ZSH_THEME="agnoster"
 # DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+ export UPDATE_ZSH_DAYS=6
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
@@ -45,7 +46,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -73,12 +74,13 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
   git-extras
+  symfony-console
   colored-man-pages
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
 
-#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#CD00CD,bg=cyan,bold,underline"
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#d6c3c3,bg=cyan,bold,underline"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# aliases
 alias zshconfig="nano ~/.zshrc"
 alias zshupdate="source ~/.zshrc"
 alias phps="php -S localhost:8000 -ddisplay_errors=1"
@@ -121,14 +123,17 @@ alias cc='xclip -selection clipboard'
 
 #copy mygit password to clipboard 
 alias gitpass="cat ~/Documents/git.txt | cc "
-#use this command with cat eg  cat file  | cc 
+#use this command with cat eg  cat file  | cc
 alias getpass="openssl rand -base64 20"
 
 # update on one command
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias ngs='ng serve'
 alias ee="exit"
-#alias for git 
+alias z="cd" #change directory to current user
+alias pfe="cd ~/PFE"
+alias PFE="cd ~/PFE"
+#alias for git
 alias gst='git status'
 alias gc='git commit'
 alias gco='git checkout'
@@ -139,10 +144,16 @@ alias gd='git diff | mate'
 alias gb='git branch'
 alias gba='git branch -a'
 alias del='git branch -d'
+#alias gitlog ='git log --all --decorate --oneline --graph'
 
-#END ALIAS FOR GIT 
-alias portfolio='~/bin/./portfolio.sh' 
+alias connectdb='mysql -uaminelch -p'
+#alias adminerstart ='cd ~/DevTools/adminer &&  php -S 127.0.0.1:5200'
 #linuxlogo -L14
+
+alias tb ='taskbook'
+#add symfony to the path
+export PATH="$HOME/.symfony/bin:$PATH"
+
 export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export PATH="$PATH:/opt/flutter/bin"
