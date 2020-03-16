@@ -11,7 +11,6 @@ export ZSH="/home/aminelch/.oh-my-zsh"
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="gnzh"
 #ZSH_THEME="agnoster"
-#ZSH_THEME="gnzh"
 #ZSH_THEME="lambda"
 #ZSH_THEME="Powerlevel10k"
 # Set list of themes to pick from when loading at random
@@ -113,7 +112,7 @@ alias phps="php -S localhost:8000 -ddisplay_errors=1"
 alias c="clear"
 alias lc='colorls -lA --sd'
 alias ll='colorls --gs'
-alias la='colorls -r' 
+alias la='colorls -r'
 alias kick="sudo python3 ~/kickthemout/kickthemout.py"
 alias ipe='curl ipinfo.io/ip'
 #alias www ='firefox&'
@@ -121,7 +120,7 @@ alias ipe='curl ipinfo.io/ip'
 
 alias cc='xclip -selection clipboard'
 
-#copy mygit password to clipboard 
+#copy mygit password to clipboard
 alias gitpass="cat ~/Documents/git.txt | cc "
 #use this command with cat eg  cat file  | cc
 alias getpass="openssl rand -base64 20"
@@ -144,11 +143,11 @@ alias gd='git diff | mate'
 alias gb='git branch'
 alias gba='git branch -a'
 alias del='git branch -d'
-#alias gitlog ='git log --all --decorate --oneline --graph'
 
+#Database tools &adminer 
+alias adminer='php -S localhost:3000 ~/DevTools/adminer/index.php'
 alias connectdb='mysql -uaminelch -p'
-#alias adminerstart ='cd ~/DevTools/adminer &&  php -S 127.0.0.1:5200'
-#linuxlogo -L14
+
 
 alias tb ='taskbook'
 #add symfony to the path
