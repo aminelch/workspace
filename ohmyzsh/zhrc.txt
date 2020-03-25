@@ -132,20 +132,9 @@ alias ee="exit"
 alias z="cd" #change directory to current user
 alias pfe="cd ~/PFE"
 alias PFE="cd ~/PFE"
-#alias for git
-alias gst='git status'
-alias gc='git commit'
-alias gco='git checkout'
-alias gl='git pull'
-alias gpom="git pull origin master"
-alias gp='git push'
-alias gd='git diff | mate'
-alias gb='git branch'
-alias gba='git branch -a'
-alias del='git branch -d'
 
-#Database tools &adminer 
-alias adminer='php -S localhost:3000 ~/DevTools/adminer/index.php'
+#Database tools &adminer
+#alias adminer='php -S localhost:3000 ~/DevTools/adminer/index.php'
 alias connectdb='mysql -uaminelch -p'
 
 
