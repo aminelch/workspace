@@ -44,7 +44,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 
 ### PHPStorm 
-[phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings.zip "phpStorm settings")
+[phpStorm settings](https://github.com/aminelch/workspace/blob/master/phpStorm/settings-2.zip "phpStorm settings")
 
 
 ### Android Studio
